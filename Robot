@@ -1,0 +1,6 @@
+An ATtiny85V powered robot toy.
+
+Consists of 3 different LED classes for Fading, Flashing, and Toggling LEDs.
+It's a bit of a hack as all processing is done in interrupts.
+Main loop is empty, timer interrupt runs in background continuously.
+Warning. interrupts are not disabled during processing so routines must exit within 1ms.  No issue here.
