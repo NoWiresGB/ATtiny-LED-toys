@@ -1,0 +1,12 @@
+You guessed it.  An ATtiny85V powered pumpkin toy.
+
+Adaptation of the Robot code incorporating some candle flash code from Electrick_RWM
+
+This is very hacky as lots of code in the main loop and the interrupt classes.
+However, it works and it's not mission critical code.
+
+We're only using the Fader class from Robot for some spooky red eye LEDs that operate independently of the other code.
+
+Electrick's code also incorporates a switch to trigger from glow to flicker code.  I've just left the pin hanging
+as I like the flicker the floating pin seems to settle on.  If you want, connect a switch or build an unstable "wind"
+switch with foil and a bit of copper wire for the intended effect.
