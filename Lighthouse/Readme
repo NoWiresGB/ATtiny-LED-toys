@@ -1,0 +1,3 @@
+A simple PWM glowing LED used in a toy lighthouse.
+
+Just add: 3V supply (CR2032), MCU, LED and resistor.
